@@ -40,14 +40,9 @@ Hospital-Management-System/
 └── README.md
 ```
 
-The Hospital Management System window will open. You can now add, update, delete, and discharge patients.
-
 **Note:** Patient records are automatically stored in `patients.txt` in the project folder.
 
 ## 🧠 Concepts Used
-
-This project helped me understand and practice:
-
 - Classes and Objects
 - Constructors
 - Encapsulation
@@ -61,8 +56,3 @@ This project helped me understand and practice:
 - ExecutorService
 - JTable and DefaultTableModel
 
-## 👨‍💻 About the Project
-
-This project was developed as a Java learning project to improve my understanding of Object-Oriented Programming, GUI development, multithreading, and file handling.
-
-**If you find this project useful, don't forget to ⭐ the repository!**
