@@ -13,6 +13,9 @@ A Java desktop application for managing common hospital workflows. It uses a Swi
 - **Activity logging**
 - An additional legacy hospital patient workflow in `HospitalGUI`
 
+```bash
+  
+
 ## 📂 Project Structure
 ├── Main.java             # Application entry point
 ├── MediCareGUI.java      # Main MediCare interface
