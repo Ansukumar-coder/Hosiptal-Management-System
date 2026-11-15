@@ -1,58 +1,24 @@
-# 🏥 Hospital Management System
+#  Hospital Management System
 
-A simple **Hospital Management System built using Java**. This project helps manage patient information, doctor details, appointments, room allocation, and patient discharge through a user-friendly desktop application.
+A Java desktop application for managing common hospital workflows. It uses a Swing graphical interface and stores application data in local text files.
 
-It is designed to make basic hospital record management easier, faster, and more organized.
+## Features
 
-## ✨ Features
-
-- ➕ **Add Patient:** Register new patients with their personal and medical details.
-- ✏️ **Update Patient:** Edit patient information, appointments, and room details.
-- 🗑️ **Delete Patient:** Remove patient records when needed.
-- 🏥 **Patient Admission:** Manage patient ward and room/bed numbers.
-- 🚪 **Discharge Patient:** Discharge patients and automatically save the discharge date and time.
-- 📅 **Appointment Management:** Store visit days, times, and next appointment dates.
-- 👨‍👩‍👧 **Guardian Details:** Save guardian name, relationship, and phone number.
-- 🔄 **Auto Refresh:** Automatically refresh patient records every 5 seconds.
-- 📊 **Patient Status:** View total, active, discharged, and ICU patients.
-- 💾 **File Handling:** Save patient records in a local text file.
-
-## 🛠️ Technologies Used
-
-- Java
-- Java Swing
-- Java AWT
-- Multithreading
-- File Handling
-- Object-Oriented Programming (OOP)
+- **Dashboard** with hospital overview information
+- **Patient records** with visit, ward, status, guardian, and photo details
+- **Doctor records** with specialization, contact, and availability
+- **Appointment management**
+- **Billing records**
+- **Bed management**
+- **Activity logging**
+- An additional legacy hospital patient workflow in `HospitalGUI`
 
 ## 📂 Project Structure
-
-```text
-Hospital-Management-System/
-│
-├── Main.java
-├── HospitalGUI.java
-├── Patient.java
-├── FileHelper.java
-├── AutoRefreshThread.java
-├── patients.txt
-└── README.md
-```
-
-**Note:** Patient records are automatically stored in `patients.txt` in the project folder.
-
-## 🧠 Concepts Used
-- Classes and Objects
-- Constructors
-- Encapsulation
-- Getters and Setters
-- Java Swing Components
-- AWT Layout Managers
-- Event Handling
-- Multithreading
-- File Reading and Writing
-- Exception Handling
-- ExecutorService
-- JTable and DefaultTableModel
+├── Main.java             # Application entry point
+├── MediCareGUI.java      # Main MediCare interface
+├── HospitalGUI.java      # Legacy hospital workflow
+├── Patient.java          # Patient data model
+├── FileHelper.java       # Patient data file operations
+├── ModuleStore.java      # Module data storage
+└── AutoRefreshThread.java # Refersh patient list every five sec
 
