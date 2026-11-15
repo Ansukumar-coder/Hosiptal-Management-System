@@ -9,8 +9,6 @@ import java.util.Base64;
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;
 import javax.swing.table.DefaultTableModel;
-
-/** MediCare application shell. Existing HospitalGUI remains available for the full legacy workflow. */
 public class MediCareGUI extends JFrame {
     private static final Color NAVY = new Color(18, 35, 62);
     private static final Color BLUE = new Color(37, 99, 166);
