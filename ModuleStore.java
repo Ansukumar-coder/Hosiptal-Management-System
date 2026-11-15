@@ -2,8 +2,6 @@ import java.io.*;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.util.*;
-
-/** Small file-backed store for the non-patient MediCare modules. */
 public class ModuleStore {
     private final File folder = new File("medicare_data");
 
